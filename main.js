@@ -64,7 +64,6 @@ let closeWindowBtn = document.querySelector('.close-window');
 let modalWindow = document.querySelector('.modal-window');
 
 openWindowBtn.onclick = () => {
-	console.log(1);
 	modalWindow.classList.add('active');
 }
 closeWindowBtn.onclick = () => {
